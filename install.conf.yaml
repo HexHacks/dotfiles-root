@@ -8,3 +8,6 @@
     - git submodule update --init --recursive
     - [./usr_etc/install, Updating root user configs...]
 
+- link:
+    /etc/makepkg.conf: root_etc/pacman/makepkg.conf
+
