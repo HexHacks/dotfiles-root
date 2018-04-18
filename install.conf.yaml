@@ -6,5 +6,5 @@
 
 - shell:
     - git submodule update --init --recursive
-
+    - [./usr_etc/install, Updating root user configs...]
 
