@@ -1,0 +1,10 @@
+- defaults:
+    link:
+      relink: true
+
+- clean: ['/etc/']
+
+- shell:
+    - git submodule update --init --recursive
+
+
